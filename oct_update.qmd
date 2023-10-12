@@ -1,0 +1,92 @@
+---
+title: "RIS Project Update"
+author: "Fonti Kar"
+format:
+  revealjs:
+    incremental: true 
+editor: source
+from: markdown+emoji
+---
+
+## Overview
+
+::: nonincremental
+-   Our RIS projects
+-   What have I been doing (Jul - Oct)
+-   What's next (Nov - Jan/Feb)
+-   Group decisions
+    -   Steering committee
+    -   Shiny server domain
+    -   Blog
+    -   An R user community
+:::
+
+## Our RIS projects
+
+::: nonincremental
+-   What is our project?
+
+-   Summarise coverage across different Faculties and Schools
+
+-   Summarise coverage R package vs. Shiny vs Other
+:::
+
+## What have I been doing
+
+###### "Hardware"
+
+-   NECTAR Virtual Machine for Shiny server + Posit Connect license :rocket:
+
+###### Software
+
+-   `APCalign` [package](https://traitecoevo.github.io/APCalign/) (Falster) :rocket:
+-   `APCalign` [Shiny app](https://posit-connect-unsw.intersect.org.au/APCalign-app/) (Falster) 🚧
+-   `infinitylists` [Shiny app](https://posit-connect-unsw.intersect.org.au/infinitylists/) (Cornwell) :rocket:
+-   `rmot` package (Falster) 🚧
+-   Scoping 'automated data analyses' (Sisson) 🚧
+
+## What have I been doing
+
+###### Community
+
+-   posit::conf(2023) talk
+
+::: {.fragment}
+
+![](../images/title_slide.png)
+:::
+
+## What have I been doing
+###### Community
+
+::: nonincremental
+
+-   posit::conf(2023) talk
+-   UNSWcodeRs drop-in sessions
+
+:::
+
+::: {.fragment}
+
+![](../images/UNSWcodeRs.png){fig-align="right" width=50%}
+:::
+
+## What's next
+
+###### Software
+
+-   `AugGaussian` package (Lee)
+-   Searchable databases Shiny app (Nakagawa)
+-   Upgrade packages `ecoCopula` and `gllvm` (Warton)
+-   Shiny app for modelevalution.org outputs (Abramowitz)
+
+###### Community
+
+-   Katana workshop(?)
+
+## Group decisions
+
+-   Steering committee
+-   Shiny server domain
+-   Blog
+-   An R user community
