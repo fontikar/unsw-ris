@@ -11,6 +11,7 @@
   <meta name="generator" content="quarto-1.3.313">
 
   <meta name="author" content="Fonti Kar">
+  <meta name="dcterms.date" content="2023-10-17">
   <title>RIS Project Update</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -335,47 +336,56 @@ Fonti Kar
 </div>
 </div>
 
+  <p class="date">2023-10-17</p>
 </section>
 <section id="overview" class="slide level2">
 <h2>Overview</h2>
 <div>
 <ul>
-<li>Our RIS projects</li>
-<li>What have I been doing (Jul - Oct)</li>
-<li>What’s next (Nov - Jan/Feb)</li>
-<li>Group decisions
+<li>Why RIS</li>
+<li>Meet and Greet</li>
+<li>Hi! My name is Fonti</li>
+<li>Project updates (Jul - Oct)</li>
+<li>Infrastructure</li>
+<li>Software
 <ul>
-<li>Steering committee</li>
-<li>Shiny server domain</li>
-<li>Blog</li>
-<li>An R user community</li>
+<li>Demos</li>
 </ul></li>
+<li>Ingredients to successful collabs</li>
+<li>What’s next (Nov - Jan/Feb)</li>
+<li>Group decisions</li>
 </ul>
 </div>
 </section>
 <section id="our-ris-projects" class="slide level2">
 <h2>Our RIS projects</h2>
+<h6 id="project-aims">Project aims</h6>
 <div>
 <ul>
-<li><p>What is our project?</p></li>
-<li><p>Summarise coverage across different Faculties and Schools</p></li>
-<li><p>Summarise coverage R package vs.&nbsp;Shiny vs Other</p></li>
+<li>Build top-quality R software (packages and applications)</li>
+<li>Enhance existing UNSW R software</li>
+<li>Develop and Deliver training resources for software development skills</li>
+<li>Increase R software accessibility</li>
 </ul>
 </div>
 </section>
+<section id="our-ris-projects-1" class="slide level2">
+<h2>Our RIS projects</h2>
+
+<img data-src="oct_update_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch"></section>
 <section id="what-have-i-been-doing" class="slide level2">
 <h2>What have I been doing</h2>
 <h6 id="hardware">“Hardware”</h6>
 <ul>
-<li class="fragment">NECTAR Virtual Machine for Shiny server + Posit Connect license <span class="emoji" data-emoji="rocket">🚀</span></li>
+<li class="fragment">NECTAR Virtual Machine for <a href="https://posit-connect-unsw.intersect.org.au/">Posit Connect server</a> <span class="emoji" data-emoji="rocket">🚀</span></li>
 </ul>
 <h6 id="software">Software</h6>
 <ul>
 <li class="fragment"><code>APCalign</code> <a href="https://traitecoevo.github.io/APCalign/">package</a> (Falster) <span class="emoji" data-emoji="rocket">🚀</span></li>
-<li class="fragment"><code>APCalign</code> <a href="https://posit-connect-unsw.intersect.org.au/APCalign-app/">Shiny app</a> (Falster) 🚧</li>
+<li class="fragment"><code>APCalign</code> <a href="https://posit-connect-unsw.intersect.org.au/APCalign-app/">Shiny app</a> (Falster) <span class="emoji" data-emoji="construction">🚧</span></li>
 <li class="fragment"><code>infinitylists</code> <a href="https://posit-connect-unsw.intersect.org.au/infinitylists/">Shiny app</a> (Cornwell) <span class="emoji" data-emoji="rocket">🚀</span></li>
-<li class="fragment"><code>rmot</code> package (Falster) 🚧</li>
-<li class="fragment">Scoping ‘automated data analyses’ (Sisson) 🚧</li>
+<li class="fragment"><code>rmot</code> package (Falster) <span class="emoji" data-emoji="construction">🚧</span></li>
+<li class="fragment">Scoping ‘automated data analyses’ (Sisson) <span class="emoji" data-emoji="construction">🚧</span></li>
 </ul>
 </section>
 <section id="what-have-i-been-doing-1" class="slide level2">
@@ -423,10 +433,15 @@ Fonti Kar
 <h2>Group decisions</h2>
 <ul>
 <li class="fragment">Steering committee</li>
-<li class="fragment">Shiny server domain</li>
-<li class="fragment">Blog</li>
+<li class="fragment">Shiny server (Problem)</li>
+<li class="fragment">Compute resources</li>
+<li class="fragment">Domain</li>
+<li class="fragment">Infrastructure for others</li>
 <li class="fragment">An R user community</li>
+<li class="fragment">Blog</li>
 </ul>
+<p>Pricing options:</p>
+<p>Option1: 8 CPU cores, 32GB RAM = $12.04/day Option 2: 16 CPU cores 64GB RAM = $24.04/day Option 3: 32 CPU cores 128GB RAM = $48.09/day</p>
 <div class="footer footer-default">
 
 </div>
@@ -642,6 +657,44 @@ Fonti Kar
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
