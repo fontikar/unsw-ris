@@ -1,6 +1,6 @@
 ---
 title: "RIS Project Update"
-author: "Fonti Kar"
+author: "Fonti Kar + Daniel Falster"
 date: "17-Oct-2023"
 format:
   revealjs:
@@ -16,15 +16,19 @@ from: markdown+emoji
 -   Meet and Greet
 -   Hi! My name is Fonti
 -   Project updates (Jul - Oct)
-  - Infrastructure
-  - Software
-    - Demos
 -   Ingredients to successful collabs
 -   What's next (Nov - Jan/Feb)
 -   Group decisions
 :::
 
-## Our RIS projects
+## Why RIS
+
+- R infrastructure to deliver research methods
+- Problem: Building and maintenance
+- R infrastructure has global reach and impact
+- R community as infrastructure
+
+## Why RIS
 
 ###### Project aims
 
@@ -35,7 +39,7 @@ from: markdown+emoji
   - Increase R software accessibility 
 :::
 
-## Our RIS projects
+## Our projects
 
 ```{r}
 #| include: FALSE
@@ -121,16 +125,53 @@ type <- ris |>
         legend.position = "right")
 ```
 
-
 ```{r}
 #| echo: FALSE
 school + type
 ```
 
+## Meet and Greet
 
-## What have I been doing
+::: nonincremental
+- Name
+- Where you are placed at UNSW (School/Research Center/Department)
+- Favourite R package
+- Next R/software 'thing' you want to learn next
+:::
 
-###### "Hardware"
+## Hi! My name is Fonti
+
+- UNSW PhD on Lizard trait evolution 2016 - 2020
+- RIS 1.0 (R packages) 2020 - 2022
+  - Workshops
+  - ARDC software award
+- Atlas of Living Australia 2022 - 2023
+  - Bushfire project
+  - ALA labs
+  - {galaxias}
+- RIS 2.0 (R packages + Shiny)
+
+## Hi! My name is Fonti
+
+###### What I can help you with
+
+- R package structure and set up
+  - Unit testing
+  - Continuous integration
+  - Package documentation (help files, vignettes, website)
+- GitHub repository setup and workflows
+  - Branch, merge, pull requests
+  - GitHub actions (CI/CD)
+- Static websites
+  - Quarto or Hugo
+- Research Training
+  - R package dev
+  - Git + GitHub Desktop
+  - Katana HPC
+
+## Project updates (Jul - Oct)
+
+###### Infrastructure
 
 -   NECTAR Virtual Machine for [Posit Connect server](https://posit-connect-unsw.intersect.org.au/) :rocket:
 
@@ -142,7 +183,7 @@ school + type
 -   `rmot` package (Falster) :construction:
 -   Scoping 'automated data analyses' (Sisson) :construction:
 
-## What have I been doing
+## Project updates (Jul - Oct)
 
 ###### Community
 
@@ -152,7 +193,7 @@ school + type
 ![](../images/title_slide.png)
 :::
 
-## What have I been doing
+## Project updates (Jul - Oct)
 
 ###### Community
 
@@ -164,6 +205,17 @@ school + type
 ::: fragment
 ![](../images/UNSWcodeRs.png){fig-align="right" width="50%"}
 :::
+
+## Ingredients to successful collabs
+
+- Strong need for R software (Well defined project) 
+  - FK can help with scoping
+- Synchronised availability 
+  - Regular pace of feedback
+  - Working together in sprints
+- Coordinated software development 
+  - Community of practice
+  - Great opportunity to learn
 
 ## What's next
 
@@ -188,10 +240,7 @@ school + type
 -   An R user community
 -   Blog
 
-
-
 Pricing options:
-
 Option1: 8 CPU cores, 32GB RAM     =  $12.04/day 
 Option 2: 16 CPU cores 64GB RAM   =  $24.04/day 
 Option 3: 32 CPU cores 128GB RAM = $48.09/day
