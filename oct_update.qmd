@@ -174,29 +174,6 @@ school + type
 ::: nonincremental
 - RIS 1.0 (R packages) 2020 - 2022
   - Workshops
-:::
-
-:::
-
-::: {.column width="60%"}
-
-::: fragment
-![](../images/workshop.png)
-:::  
-
-:::
-
-::::
-
-
-## Hi! My name is Fonti
-
-:::: {.columns}
-
-::: {.column width="40%"}
-::: nonincremental
-- RIS 1.0 (R packages) 2020 - 2022
-  - Workshops
   
 ![](../images/ohwhaley_hex.png){fig-align="right" width="50%"}
 :::
@@ -206,7 +183,7 @@ school + type
 ::: {.column width="60%"}
 
 ::: fragment
-![](../images/ohwhaley.gif)
+![](../images/workshop.png)
 :::  
 
 :::
@@ -241,17 +218,41 @@ school + type
 
   
 ## Hi! My name is Fonti  
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
 ::: nonincremental
 - Atlas of Living Australia 2022 - 2023
   - Bushfire project
   - ALA labs
-  - {galaxias}
+  - {alphahull} + {galaxias}
 :::
 
+::: {layout-ncol=2}
 
-- RIS 2.0 (R packages + Shiny)
+![](../images/galaxias.png){width="40%"}
+![](../images/alphahull.png){width="40%"}
+:::
+
+:::
+
+::: {.column width="60%"}
+
+![](../images/ia.png){fig-align="right" width="30%"}
+
+![](../images/alalabs.png)
+
+:::
+
+::::
 
 ## Hi! My name is Fonti
+
+::: nonincremental
+- RIS 2.0 (R packages + Shiny)
+:::
 
 ## What I can help you with
 
@@ -322,7 +323,7 @@ school + type
 :::
 
 ::: fragment
-![](../images/UNSWcodeRs.png){fig-align="center" width="30%"}
+![](../images/UNSWcodeRs.png){fig-align="center" width="20%"}
 
 Every Thursday 10:00 AM 
 E26 Level 4 Room 4063
@@ -356,16 +357,68 @@ E26 Level 4 Room 4063
 ## Group decisions
 
 -   Steering committee
--   Shiny server (Problem)
-  - Compute resources
-  - Domain
-  - Infrastructure for others
+-   Shiny server 
+    - In house vs. VM
+
+## Group decisions
+
+::: nonincremental
+
+-   Steering committee
+-   Shiny server 
+    - In house vs. VM
+    - Compute resources
+  
+:::
+
+
+| Options  | Compute Resources      | Price per day | Duration
+|----------|------------------------|---------------|---------|
+| Option 1.| 8 CPU cores  32GB RAM  | $12.04        |747 days |
+| Option 2.| 16 CPU cores 64GB RAM  | $24.04        |374 days |
+| Option 3.| 32 CPU cores 128GB RAM | $48.09        |187 days |
+
+
+## Group decisions
+
+::: nonincremental
+
+-   Shiny server 
+    - In house vs. VM
+    - Compute resources
+    - Domain
+
+**https://posit-connect-unsw.intersect.org.au/**infinitylists/
+
+Option: **https://shiny.unsw.edu/**infinitylists/
+
+Option: **https://shiny-unsw.org/**infinitylists/
+
+:::
+
+## Group decisions
+
+::: nonincremental
+
+-   Shiny server 
+    - In house vs. VM
+    - Compute resources
+    - Domain
+    - Infrastructure for others
+:::
+
+
+## Group decisions
+
+::: nonincremental
+
+-   Shiny server 
+    - In house vs. VM
+    - Compute resources
+    - Domain
+    - Infrastructure for others
 -   An R user community
--   Blog
-
-Pricing options:
-Option 1: 8 CPU cores  32GB RAM  =  $12.04/day 
-Option 2: 16 CPU cores 64GB RAM  =  $24.04/day 
-Option 3: 32 CPU cores 128GB RAM = $48.09/day
-
+  -   Blog
+  
+:::
 
