@@ -141,29 +141,148 @@ school + type
 
 ## Hi! My name is Fonti
 
-- UNSW PhD on Lizard trait evolution 2016 - 2020
+::: nonincremental
+- UNSW PhD on Lizard trait evolution 2016 - 2020 
+
+![](../images/fontiinthefield.png){fig-align="center" width="45%"}
+:::
+
+## Hi! My name is Fonti
+
+:::: {.columns}
+
+::: {.column width="40%"}
+::: nonincremental
+- RIS 1.0 (R packages) 2020 - 2022
+:::
+:::
+
+::: {.column width="60%"}
+::: fragment
+![](../images/falsterlab.png)
+:::  
+:::
+
+::::
+
+
+## Hi! My name is Fonti
+
+:::: {.columns}
+
+::: {.column width="40%"}
+::: nonincremental
 - RIS 1.0 (R packages) 2020 - 2022
   - Workshops
-  - ARDC software award
+:::
+
+:::
+
+::: {.column width="60%"}
+
+::: fragment
+![](../images/workshop.png)
+:::  
+
+:::
+
+::::
+
+
+## Hi! My name is Fonti
+
+:::: {.columns}
+
+::: {.column width="40%"}
+::: nonincremental
+- RIS 1.0 (R packages) 2020 - 2022
+  - Workshops
+  
+![](../images/ohwhaley_hex.png){fig-align="right" width="50%"}
+:::
+
+:::
+
+::: {.column width="60%"}
+
+::: fragment
+![](../images/ohwhaley.gif)
+:::  
+
+:::
+
+::::
+
+
+## Hi! My name is Fonti
+
+:::: {.columns}
+
+::: {.column width="40%"}
+::: nonincremental
+- RIS 1.0 (R packages) 2020 - 2022
+  - Workshops
+  - ARDC New Software Developer {austraits}
+  
+  ![](../images/austraits_hex.png){fig-align="right" width="50%"}
+  
+:::
+
+:::
+
+::: {.column width="60%"}
+
+
+![](../images/ardc.png)
+
+:::
+
+::::
+
+  
+## Hi! My name is Fonti  
+::: nonincremental
 - Atlas of Living Australia 2022 - 2023
   - Bushfire project
   - ALA labs
   - {galaxias}
+:::
+
+
 - RIS 2.0 (R packages + Shiny)
 
 ## Hi! My name is Fonti
 
-###### What I can help you with
+## What I can help you with
 
 - R package structure and set up
   - Unit testing
   - Continuous integration
   - Package documentation (help files, vignettes, website)
+  
+## What I can help you with
+::: nonincremental
+- R package structure and set up
+:::
 - GitHub repository setup and workflows
   - Branch, merge, pull requests
   - GitHub actions (CI/CD)
-- Static websites
-  - Quarto or Hugo
+  
+## What I can help you with
+::: nonincremental
+- R package structure and set up
+- GitHub repository setup and workflows
+:::
+- Static websites/online resources
+  - Quarto 
+  - Hugo via {blogdown}
+  
+## What I can help you with
+::: nonincremental
+- R package structure and set up
+- GitHub repository setup and workflows
+- Static websites/online resources
+:::
 - Research Training
   - R package dev
   - Git + GitHub Desktop
@@ -203,12 +322,16 @@ school + type
 :::
 
 ::: fragment
-![](../images/UNSWcodeRs.png){fig-align="right" width="50%"}
+![](../images/UNSWcodeRs.png){fig-align="center" width="30%"}
+
+Every Thursday 10:00 AM 
+E26 Level 4 Room 4063
 :::
+
 
 ## Ingredients to successful collabs
 
-- Strong need for R software (Well defined project) 
+- Strong need for R software (well defined idea) 
   - FK can help with scoping
 - Synchronised availability 
   - Regular pace of feedback
@@ -241,8 +364,8 @@ school + type
 -   Blog
 
 Pricing options:
-Option1: 8 CPU cores, 32GB RAM     =  $12.04/day 
-Option 2: 16 CPU cores 64GB RAM   =  $24.04/day 
+Option 1: 8 CPU cores  32GB RAM  =  $12.04/day 
+Option 2: 16 CPU cores 64GB RAM  =  $24.04/day 
 Option 3: 32 CPU cores 128GB RAM = $48.09/day
 
 
