@@ -4,7 +4,7 @@ author: "Fonti Kar + Daniel Falster"
 date: "17-Oct-2023"
 format:
   revealjs:
-    incremental: true 
+    incremental: true
 editor: source
 from: markdown+emoji
 ---
@@ -24,9 +24,11 @@ from: markdown+emoji
 ## Why RIS
 
 - R infrastructure to deliver research methods
-- Problem: Building and maintenance
 - R infrastructure has global reach and impact
 - R community as infrastructure
+- Problem: Building and maintenance
+  - Limited time for researchers
+  - Evolving practices, difficult to keep up
 
 ## Why RIS
 
@@ -39,11 +41,220 @@ from: markdown+emoji
   - Increase R software accessibility 
 :::
 
-## Our projects
+## Meet and Greet
+
+::: nonincremental
+- Name
+- Where you are placed at UNSW (School/Research Center/Department)
+- Favourite R package
+- Next R/software 'thing' you want to learn next
+:::
+
+## Hi! My name is Fonti 
+
+::: nonincremental
+- UNSW PhD on Lizard trait evolution 2016 - 2020 
+
+![](../images/fontiinthefield.png){fig-align="center" width="45%"}
+:::
+
+## Hi! My name is Fonti {.smaller}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+::: nonincremental
+- RIS 1.0 (R packages) 2020 - 2022
+:::
+:::
+
+::: {.column width="60%"}
+::: fragment
+![](../images/falsterlab.png)
+:::  
+:::
+
+::::
+
+
+## Hi! My name is Fonti {.smaller}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+::: nonincremental
+- RIS 1.0 (R packages) 2020 - 2022
+  - New Packages
+:::
+:::
+
+::: {.column width="60%"}
+::: fragment
+![](../images/austraits_hex.png){width="30%"}
+![](../images/sizedist.png){width="30%"}
+:::  
+:::
+
+::::
+
+## Hi! My name is Fonti {.smaller}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+::: nonincremental
+- RIS 1.0 (R packages) 2020 - 2022
+  - New Packages
+  - Packages Upgrades
+:::
+:::
+
+::: {.column width="60%"}
+::: nonincremental
+![](../images/austraits_hex.png){width="30%"}
+![](../images/sizedist.png){width="30%"}
+:::  
+
+::: fragment
+![](../images/ecostats_hex.png){width="30%"}
+![](../images/smatr_hex.png){width="30%"}
+![](../images/mvabund_hex.png){width="30%"}
+![](../images/litterfitter_hex.png){width="30%"}
+:::  
+:::
+
+::::
+
+## Hi! My name is Fonti {.smaller}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+::: nonincremental
+- RIS 1.0 (R packages) 2020 - 2022
+  - New Packages
+  - Packages Upgrades
+  - New Docs
+  
+![](../images/envirocomp.png){fig-align="right" width="50%"}
+
+:::
+
+:::
+
+::: {.column width="60%"}
+
+::: fragment
+![](../images/environcomp_landing.png)
+[https://environmentalcomputing.net/](https://environmentalcomputing.net/)
+:::  
+
+:::
+
+::::
+
+
+## Hi! My name is Fonti {.smaller} {.scrollable}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+::: nonincremental
+- RIS 1.0 (R packages) 2020 - 2022
+  - New Packages
+  - Packages Upgrades
+  - New Docs
+  - Workshops
+    - [R-Ladies Sydney + Calgary](https://www.youtube.com/watch?v=4-9jX5F_l8g)
+    - ResTech
+    - Statistical Society of Australia
+  
+
+:::
+
+:::
+
+::: {.column width="60%"}
+
+::: fragment
+![](../images/workshop.png)
+![](../images/ohwhaley_hex.png){fig-align="right" width="20%"}
+:::  
+
+:::
+
+::::
+
+
+## Hi! My name is Fonti {.smaller} {.scrollable}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+::: nonincremental
+- RIS 1.0 (R packages) 2020 - 2022
+  - New Packages
+  - Packages Upgrades
+  - New Docs
+  - Workshops
+  - ARDC New Software Developer
+  
+  ![](../images/austraits_hex.png){fig-align="right" width="50%"}
+  
+:::
+
+:::
+
+::: {.column width="60%"}
+
+
+![](../images/ardc.png)
+
+:::
+
+::::
+
+  
+## Hi! My name is Fonti {.smaller} {.scrollable}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+::: nonincremental
+- Atlas of Living Australia 2022 - 2023
+  - Bushfire project
+  - ALA labs
+  - {alphahull} + {galaxias}
+:::
+
+::: {layout-ncol=2}
+
+![](../images/galaxias.png){width="40%"}
+![](../images/alphahull.png){width="40%"}
+:::
+
+:::
+
+::: {.column width="60%"}
+
+![](../images/ia.png){fig-align="right" width="30%"}
+
+![](../images/alalabs.png)
+
+:::
+
+::::
+
+## Hi! My name is Fonti 
+
+::: nonincremental
+- RIS 2.0 (R packages + Shiny)
+:::
 
 ```{r}
 #| include: FALSE
-pacman::p_load(tidyverse, ggplot2, ggwaffle, patchwork)
+pacman::p_load(tidyverse, ggplot2, ggwaffle, patchwork, wesanderson)
 
 ris <- tibble(school = c(rep("BEES", 11), 
                   rep("BABS", 2), 
@@ -98,13 +309,15 @@ ris <- tibble(school = c(rep("BEES", 11),
 )
 
 
+
+
 # Summarise by School
 school <- ris |> 
   waffle_iron(aes_d(group = school)) |> 
   ggplot(aes(x, y, fill = group)) + 
   geom_waffle() + 
   coord_equal() + 
-  scale_fill_waffle() + 
+  scale_fill_manual(values = wes_palette("Darjeeling2")) +
   guides(fill=guide_legend(title = "Schools in Faculty of Science")) +
   theme_waffle() +
   theme(axis.title.x = element_blank(),
@@ -117,7 +330,7 @@ type <- ris |>
   ggplot(aes(x, y, fill = group)) + 
   geom_waffle() + 
   coord_equal() + 
-  scale_fill_waffle() + 
+  scale_fill_manual(values = wes_palette("Darjeeling2")) +
   guides(fill=guide_legend(title = "R software type")) +
   theme_waffle() +
   theme(axis.title.x = element_blank(),
@@ -129,130 +342,6 @@ type <- ris |>
 #| echo: FALSE
 school + type
 ```
-
-## Meet and Greet
-
-::: nonincremental
-- Name
-- Where you are placed at UNSW (School/Research Center/Department)
-- Favourite R package
-- Next R/software 'thing' you want to learn next
-:::
-
-## Hi! My name is Fonti
-
-::: nonincremental
-- UNSW PhD on Lizard trait evolution 2016 - 2020 
-
-![](../images/fontiinthefield.png){fig-align="center" width="45%"}
-:::
-
-## Hi! My name is Fonti
-
-:::: {.columns}
-
-::: {.column width="40%"}
-::: nonincremental
-- RIS 1.0 (R packages) 2020 - 2022
-:::
-:::
-
-::: {.column width="60%"}
-::: fragment
-![](../images/falsterlab.png)
-:::  
-:::
-
-::::
-
-
-## Hi! My name is Fonti
-
-:::: {.columns}
-
-::: {.column width="40%"}
-::: nonincremental
-- RIS 1.0 (R packages) 2020 - 2022
-  - Workshops
-  
-![](../images/ohwhaley_hex.png){fig-align="right" width="50%"}
-:::
-
-:::
-
-::: {.column width="60%"}
-
-::: fragment
-![](../images/workshop.png)
-:::  
-
-:::
-
-::::
-
-
-## Hi! My name is Fonti
-
-:::: {.columns}
-
-::: {.column width="40%"}
-::: nonincremental
-- RIS 1.0 (R packages) 2020 - 2022
-  - Workshops
-  - ARDC New Software Developer {austraits}
-  
-  ![](../images/austraits_hex.png){fig-align="right" width="50%"}
-  
-:::
-
-:::
-
-::: {.column width="60%"}
-
-
-![](../images/ardc.png)
-
-:::
-
-::::
-
-  
-## Hi! My name is Fonti  
-
-:::: {.columns}
-
-::: {.column width="40%"}
-
-::: nonincremental
-- Atlas of Living Australia 2022 - 2023
-  - Bushfire project
-  - ALA labs
-  - {alphahull} + {galaxias}
-:::
-
-::: {layout-ncol=2}
-
-![](../images/galaxias.png){width="40%"}
-![](../images/alphahull.png){width="40%"}
-:::
-
-:::
-
-::: {.column width="60%"}
-
-![](../images/ia.png){fig-align="right" width="30%"}
-
-![](../images/alalabs.png)
-
-:::
-
-::::
-
-## Hi! My name is Fonti
-
-::: nonincremental
-- RIS 2.0 (R packages + Shiny)
-:::
 
 ## What I can help you with
 
@@ -297,10 +386,9 @@ school + type
 
 ###### Software
 
--   `APCalign` [package](https://traitecoevo.github.io/APCalign/) (Falster) :rocket:
--   `APCalign` [Shiny app](https://posit-connect-unsw.intersect.org.au/APCalign-app/) (Falster) :construction:
+-   `APCalign` [package](https://traitecoevo.github.io/APCalign/) :rocket: and [Shiny app](https://posit-connect-unsw.intersect.org.au/APCalign-app/) (Falster, Cornwell) :construction:
 -   `infinitylists` [Shiny app](https://posit-connect-unsw.intersect.org.au/infinitylists/) (Cornwell) :rocket:
--   `rmot` package (Falster) :construction:
+-   `rmot` package (Falster, Warton) :construction:
 -   Scoping 'automated data analyses' (Sisson) :construction:
 
 ## Project updates (Jul - Oct)
