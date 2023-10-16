@@ -4,6 +4,8 @@ author: "Fonti Kar + Daniel Falster"
 date: "17-Oct-2023"
 format:
   revealjs:
+    smaller: true
+    scrollable: true
     incremental: true
 editor: source
 from: markdown+emoji
@@ -154,7 +156,7 @@ from: markdown+emoji
 ::::
 
 
-## Hi! My name is Fonti {.smaller} {.scrollable}
+## Hi! My name is Fonti {.smaller}
 
 :::: {.columns}
 
@@ -186,7 +188,7 @@ from: markdown+emoji
 ::::
 
 
-## Hi! My name is Fonti {.smaller} {.scrollable}
+## Hi! My name is Fonti {.smaller}
 
 :::: {.columns}
 
@@ -215,7 +217,7 @@ from: markdown+emoji
 ::::
 
   
-## Hi! My name is Fonti {.smaller} {.scrollable}
+## Hi! My name is Fonti {.smaller}
 
 :::: {.columns}
 
@@ -398,7 +400,8 @@ school + type
 -   posit::conf(2023) talk
 
 ::: fragment
-![](../images/title_slide.png)
+![](../images/title_slide.png){fig-align="center" width="80%"}
+
 :::
 
 ## Project updates (Jul - Oct)

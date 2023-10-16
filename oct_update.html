@@ -244,6 +244,7 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
+      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -485,8 +486,8 @@ Fonti Kar + Daniel Falster
 </div>
 </div>
 </section>
-<section id="hi-my-name-is-fonti-.smaller" class="slide level2 scrollable">
-<h2>Hi! My name is Fonti {.smaller}</h2>
+<section id="hi-my-name-is-fonti-5" class="slide level2 smaller">
+<h2>Hi! My name is Fonti</h2>
 <div class="columns">
 <div class="column" style="width:40%;">
 <div>
@@ -512,8 +513,8 @@ Fonti Kar + Daniel Falster
 </div>
 </div>
 </section>
-<section id="hi-my-name-is-fonti-.smaller-1" class="slide level2 scrollable">
-<h2>Hi! My name is Fonti {.smaller}</h2>
+<section id="hi-my-name-is-fonti-6" class="slide level2 smaller">
+<h2>Hi! My name is Fonti</h2>
 <div class="columns">
 <div class="column" style="width:40%;">
 <div>
@@ -534,8 +535,8 @@ Fonti Kar + Daniel Falster
 </div>
 </div>
 </section>
-<section id="hi-my-name-is-fonti-.smaller-2" class="slide level2 scrollable">
-<h2>Hi! My name is Fonti {.smaller}</h2>
+<section id="hi-my-name-is-fonti-7" class="slide level2 smaller">
+<h2>Hi! My name is Fonti</h2>
 <div class="columns">
 <div class="column" style="width:40%;">
 <div>
@@ -565,7 +566,7 @@ Fonti Kar + Daniel Falster
 </div>
 </div>
 </section>
-<section id="hi-my-name-is-fonti-5" class="slide level2">
+<section id="hi-my-name-is-fonti-8" class="slide level2">
 <h2>Hi! My name is Fonti</h2>
 <div>
 <ul>
@@ -655,7 +656,11 @@ Fonti Kar + Daniel Falster
 <li class="fragment">posit::conf(2023) talk</li>
 </ul>
 <div class="fragment">
-<p><img data-src="../images/title_slide.png"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/title_slide.png" style="width:80.0%"></p>
+</figure>
+</div>
 </div>
 </section>
 <section id="project-updates-jul---oct-2" class="slide level2">
@@ -837,13 +842,13 @@ Fonti Kar + Daniel Falster
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
+'smaller': true,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'smaller': false,
+'smaller': true,
  
         // Display controls in the bottom right corner
         controls: false,
