@@ -1,0 +1,191 @@
+[
+  {
+    "objectID": "oct_update.html#overview",
+    "href": "oct_update.html#overview",
+    "title": "RIS Project Update",
+    "section": "Overview",
+    "text": "Overview\n\n\nWhy RIS\nMeet and Greet\nHi! My name is Fonti\nProject updates (Jul - Oct)\nIngredients to successful collabs\nWhat’s next (Nov - Jan/Feb)\nGroup decisions"
+  },
+  {
+    "objectID": "oct_update.html#why-ris",
+    "href": "oct_update.html#why-ris",
+    "title": "RIS Project Update",
+    "section": "Why RIS",
+    "text": "Why RIS\n\nR infrastructure to deliver research methods\nR infrastructure has global reach and impact\nR community as infrastructure\nProblem: Building and maintenance\n\nLimited time for researchers\nEvolving practices, difficult to keep up"
+  },
+  {
+    "objectID": "oct_update.html#why-ris-1",
+    "href": "oct_update.html#why-ris-1",
+    "title": "RIS Project Update",
+    "section": "Why RIS",
+    "text": "Why RIS\nProject aims\n\n\nBuild top-quality R software (packages and applications)\nEnhance existing UNSW R software\nDevelop and Deliver training resources for software development skills\nIncrease R software accessibility"
+  },
+  {
+    "objectID": "oct_update.html#meet-and-greet",
+    "href": "oct_update.html#meet-and-greet",
+    "title": "RIS Project Update",
+    "section": "Meet and Greet",
+    "text": "Meet and Greet\n\n\nName\nWhere you are placed at UNSW (School/Research Center/Department)\nFavourite R package\nNext R/software ‘thing’ you want to learn next"
+  },
+  {
+    "objectID": "oct_update.html#hi-my-name-is-fonti",
+    "href": "oct_update.html#hi-my-name-is-fonti",
+    "title": "RIS Project Update",
+    "section": "Hi! My name is Fonti",
+    "text": "Hi! My name is Fonti\n\n\nUNSW PhD on Lizard trait evolution 2016 - 2020"
+  },
+  {
+    "objectID": "oct_update.html#hi-my-name-is-fonti-1",
+    "href": "oct_update.html#hi-my-name-is-fonti-1",
+    "title": "RIS Project Update",
+    "section": "Hi! My name is Fonti",
+    "text": "Hi! My name is Fonti\n\n\n\n\nRIS 1.0 (R packages) 2020 - 2022"
+  },
+  {
+    "objectID": "oct_update.html#hi-my-name-is-fonti-2",
+    "href": "oct_update.html#hi-my-name-is-fonti-2",
+    "title": "RIS Project Update",
+    "section": "Hi! My name is Fonti",
+    "text": "Hi! My name is Fonti\n\n\n\n\nRIS 1.0 (R packages) 2020 - 2022\n\nNew Packages"
+  },
+  {
+    "objectID": "oct_update.html#hi-my-name-is-fonti-3",
+    "href": "oct_update.html#hi-my-name-is-fonti-3",
+    "title": "RIS Project Update",
+    "section": "Hi! My name is Fonti",
+    "text": "Hi! My name is Fonti\n\n\n\n\nRIS 1.0 (R packages) 2020 - 2022\n\nNew Packages\nPackages Upgrades"
+  },
+  {
+    "objectID": "oct_update.html#hi-my-name-is-fonti-4",
+    "href": "oct_update.html#hi-my-name-is-fonti-4",
+    "title": "RIS Project Update",
+    "section": "Hi! My name is Fonti",
+    "text": "Hi! My name is Fonti\n\n\n\n\nRIS 1.0 (R packages) 2020 - 2022\n\nNew Packages\nPackages Upgrades\nNew Docs\n\n\n\n\n\n\n\n\n\n\n https://environmentalcomputing.net/"
+  },
+  {
+    "objectID": "oct_update.html#hi-my-name-is-fonti-5",
+    "href": "oct_update.html#hi-my-name-is-fonti-5",
+    "title": "RIS Project Update",
+    "section": "Hi! My name is Fonti",
+    "text": "Hi! My name is Fonti\n\n\n\n\nRIS 1.0 (R packages) 2020 - 2022\n\nNew Packages\nPackages Upgrades\nNew Docs\nWorkshops\n\nR-Ladies Sydney + Calgary\nResTech\nStatistical Society of Australia"
+  },
+  {
+    "objectID": "oct_update.html#hi-my-name-is-fonti-6",
+    "href": "oct_update.html#hi-my-name-is-fonti-6",
+    "title": "RIS Project Update",
+    "section": "Hi! My name is Fonti",
+    "text": "Hi! My name is Fonti\n\n\n\n\nRIS 1.0 (R packages) 2020 - 2022\n\nNew Packages\nPackages Upgrades\nNew Docs\nWorkshops\nARDC New Software Developer"
+  },
+  {
+    "objectID": "oct_update.html#hi-my-name-is-fonti-7",
+    "href": "oct_update.html#hi-my-name-is-fonti-7",
+    "title": "RIS Project Update",
+    "section": "Hi! My name is Fonti",
+    "text": "Hi! My name is Fonti\n\n\n\n\nAtlas of Living Australia 2022 - 2023\n\nBushfire project\nALA labs\n{alphahull} + {galaxias}"
+  },
+  {
+    "objectID": "oct_update.html#hi-my-name-is-fonti-8",
+    "href": "oct_update.html#hi-my-name-is-fonti-8",
+    "title": "RIS Project Update",
+    "section": "Hi! My name is Fonti",
+    "text": "Hi! My name is Fonti\n\n\nRIS 2.0 (R packages + Shiny)"
+  },
+  {
+    "objectID": "oct_update.html#what-i-can-help-you-with",
+    "href": "oct_update.html#what-i-can-help-you-with",
+    "title": "RIS Project Update",
+    "section": "What I can help you with",
+    "text": "What I can help you with\n\nR package structure and set up\n\nUnit testing\nContinuous integration\nPackage documentation (help files, vignettes, website)"
+  },
+  {
+    "objectID": "oct_update.html#what-i-can-help-you-with-1",
+    "href": "oct_update.html#what-i-can-help-you-with-1",
+    "title": "RIS Project Update",
+    "section": "What I can help you with",
+    "text": "What I can help you with\n\n\nR package structure and set up\n\n\n\nGitHub repository setup and workflows\n\nBranch, merge, pull requests\nGitHub actions (CI/CD)"
+  },
+  {
+    "objectID": "oct_update.html#what-i-can-help-you-with-2",
+    "href": "oct_update.html#what-i-can-help-you-with-2",
+    "title": "RIS Project Update",
+    "section": "What I can help you with",
+    "text": "What I can help you with\n\n\nR package structure and set up\nGitHub repository setup and workflows\n\n\n\nStatic websites/online resources\n\nQuarto\nHugo via {blogdown}"
+  },
+  {
+    "objectID": "oct_update.html#what-i-can-help-you-with-3",
+    "href": "oct_update.html#what-i-can-help-you-with-3",
+    "title": "RIS Project Update",
+    "section": "What I can help you with",
+    "text": "What I can help you with\n\n\nR package structure and set up\nGitHub repository setup and workflows\nStatic websites/online resources\n\n\n\nResearch Training\n\nR package dev\nGit + GitHub Desktop\nKatana HPC"
+  },
+  {
+    "objectID": "oct_update.html#project-updates-jul---oct",
+    "href": "oct_update.html#project-updates-jul---oct",
+    "title": "RIS Project Update",
+    "section": "Project updates (Jul - Oct)",
+    "text": "Project updates (Jul - Oct)\nInfrastructure\n\nNECTAR Virtual Machine for Posit Connect server 🚀\n\nSoftware\n\nAPCalign package 🚀 and Shiny app (Falster, Cornwell) 🚧\ninfinitylists Shiny app (Cornwell) 🚀\nrmot package (Falster, Warton) 🚧\nScoping ‘automated data analyses’ (Sisson) 🚧"
+  },
+  {
+    "objectID": "oct_update.html#project-updates-jul---oct-1",
+    "href": "oct_update.html#project-updates-jul---oct-1",
+    "title": "RIS Project Update",
+    "section": "Project updates (Jul - Oct)",
+    "text": "Project updates (Jul - Oct)\nCommunity\n\nposit::conf(2023) talk"
+  },
+  {
+    "objectID": "oct_update.html#project-updates-jul---oct-2",
+    "href": "oct_update.html#project-updates-jul---oct-2",
+    "title": "RIS Project Update",
+    "section": "Project updates (Jul - Oct)",
+    "text": "Project updates (Jul - Oct)\nCommunity\n\n\nposit::conf(2023) talk\nUNSWcodeRs drop-in sessions\n\n\n\n\n\n\n\n\nEvery Thursday 10:00 AM E26 Level 4 Room 4063"
+  },
+  {
+    "objectID": "oct_update.html#ingredients-to-successful-collabs",
+    "href": "oct_update.html#ingredients-to-successful-collabs",
+    "title": "RIS Project Update",
+    "section": "Ingredients to successful collabs",
+    "text": "Ingredients to successful collabs\n\nStrong need for R software (well defined idea)\n\nFK can help with scoping\n\nSynchronised availability\n\nRegular pace of feedback\nWorking together in sprints\n\nCoordinated software development\n\nCommunity of practice\nGreat opportunity to learn"
+  },
+  {
+    "objectID": "oct_update.html#whats-next",
+    "href": "oct_update.html#whats-next",
+    "title": "RIS Project Update",
+    "section": "What’s next",
+    "text": "What’s next\nSoftware\n\nAugGaussian package (Lee)\nSearchable databases Shiny app (Nakagawa)\nUpgrade packages ecoCopula and gllvm (Warton)\nShiny app for modelevalution.org outputs (Abramowitz)\n\nCommunity\n\nKatana workshop(?)"
+  },
+  {
+    "objectID": "oct_update.html#group-decisions",
+    "href": "oct_update.html#group-decisions",
+    "title": "RIS Project Update",
+    "section": "Group decisions",
+    "text": "Group decisions\n\nSteering committee\nShiny server\n\nIn house vs. VM"
+  },
+  {
+    "objectID": "oct_update.html#group-decisions-1",
+    "href": "oct_update.html#group-decisions-1",
+    "title": "RIS Project Update",
+    "section": "Group decisions",
+    "text": "Group decisions\n\n\nSteering committee\nShiny server\n\nIn house vs. VM\nCompute resources\n\n\n\n\n\n\nOptions\nCompute Resources\nPrice per day\nDuration\n\n\n\n\nOption 1.\n8 CPU cores 32GB RAM\n$12.04\n747 days\n\n\nOption 2.\n16 CPU cores 64GB RAM\n$24.04\n374 days\n\n\nOption 3.\n32 CPU cores 128GB RAM\n$48.09\n187 days"
+  },
+  {
+    "objectID": "oct_update.html#group-decisions-2",
+    "href": "oct_update.html#group-decisions-2",
+    "title": "RIS Project Update",
+    "section": "Group decisions",
+    "text": "Group decisions\n\n\nShiny server\n\nIn house vs. VM\nCompute resources\nDomain\n\n\nhttps://posit-connect-unsw.intersect.org.au/infinitylists/\nOption: https://shiny.unsw.edu/infinitylists/\nOption: https://shiny-unsw.org/infinitylists/"
+  },
+  {
+    "objectID": "oct_update.html#group-decisions-3",
+    "href": "oct_update.html#group-decisions-3",
+    "title": "RIS Project Update",
+    "section": "Group decisions",
+    "text": "Group decisions\n\n\nShiny server\n\nIn house vs. VM\nCompute resources\nDomain\nInfrastructure for others"
+  },
+  {
+    "objectID": "oct_update.html#group-decisions-4",
+    "href": "oct_update.html#group-decisions-4",
+    "title": "RIS Project Update",
+    "section": "Group decisions",
+    "text": "Group decisions\n\n\nShiny server\n\nIn house vs. VM\nCompute resources\nDomain\nInfrastructure for others\n\nAn R user community\nBlog"
+  }
+]
