@@ -57,7 +57,7 @@ from: markdown+emoji
 ::: nonincremental
 - UNSW PhD on Lizard trait evolution 2016 - 2020 
 
-![](../images/fontiinthefield.png){fig-align="center" width="45%"}
+![](images/fontiinthefield.png){fig-align="center" width="45%"}
 :::
 
 ## Hi! My name is Fonti {.smaller}
@@ -72,7 +72,7 @@ from: markdown+emoji
 
 ::: {.column width="60%"}
 ::: fragment
-![](../images/falsterlab.png)
+![](images/falsterlab.png)
 :::  
 :::
 
@@ -92,8 +92,8 @@ from: markdown+emoji
 
 ::: {.column width="60%"}
 ::: fragment
-![](../images/austraits_hex.png){width="30%"}
-![](../images/sizedist.png){width="30%"}
+![](images/austraits_hex.png){width="30%"}
+![](images/sizedist.png){width="30%"}
 :::  
 :::
 
@@ -113,15 +113,15 @@ from: markdown+emoji
 
 ::: {.column width="60%"}
 ::: nonincremental
-![](../images/austraits_hex.png){width="30%"}
-![](../images/sizedist.png){width="30%"}
+![](images/austraits_hex.png){width="30%"}
+![](images/sizedist.png){width="30%"}
 :::  
 
 ::: fragment
-![](../images/ecostats_hex.png){width="22%"}
-![](../images/smatr_hex.png){width="22%"}
-![](../images/mvabund_hex.png){width="22%"}
-![](../images/litterfitter_hex.png){width="22%"}
+![](images/ecostats_hex.png){width="22%"}
+![](images/smatr_hex.png){width="22%"}
+![](images/mvabund_hex.png){width="22%"}
+![](images/litterfitter_hex.png){width="22%"}
 :::  
 :::
 
@@ -138,7 +138,7 @@ from: markdown+emoji
   - Packages Upgrades
   - New Docs
   
-![](../images/envirocomp.png){fig-align="right" width="50%"}
+![](images/envirocomp.png){fig-align="right" width="50%"}
 
 :::
 
@@ -147,7 +147,7 @@ from: markdown+emoji
 ::: {.column width="60%"}
 
 ::: fragment
-![](../images/environcomp_landing.png)
+![](images/environcomp_landing.png)
 [https://environmentalcomputing.net/](https://environmentalcomputing.net/)
 :::  
 
@@ -179,8 +179,8 @@ from: markdown+emoji
 ::: {.column width="60%"}
 
 ::: fragment
-![](../images/workshop.png)
-![](../images/ohwhaley_hex.png){fig-align="right" width="20%"}
+![](images/workshop.png)
+![](images/ohwhaley_hex.png){fig-align="right" width="20%"}
 :::  
 
 :::
@@ -201,7 +201,7 @@ from: markdown+emoji
   - Workshops
   - ARDC New Software Developer
   
-  ![](../images/austraits_hex.png){fig-align="right" width="50%"}
+  ![](images/austraits_hex.png){fig-align="right" width="50%"}
   
 :::
 
@@ -210,7 +210,7 @@ from: markdown+emoji
 ::: {.column width="60%"}
 
 
-![](../images/ardc.png)
+![](images/ardc.png)
 
 :::
 
@@ -232,17 +232,17 @@ from: markdown+emoji
 
 ::: {layout-ncol=2}
 
-![](../images/galaxias.png){width="40%"}
-![](../images/alphahull.png){width="40%"}
+![](images/galaxias.png){width="40%"}
+![](images/alphahull.png){width="40%"}
 :::
 
 :::
 
 ::: {.column width="60%"}
 
-![](../images/ia.png){fig-align="right" width="30%"}
+![](images/ia.png){fig-align="right" width="30%"}
 
-![](../images/alalabs.png)
+![](images/alalabs.png)
 
 :::
 
@@ -400,7 +400,7 @@ school + type
 -   posit::conf(2023) talk
 
 ::: fragment
-![](../images/title_slide.png){fig-align="center" width="80%"}
+![](images/title_slide.png){fig-align="center" width="80%"}
 
 :::
 
@@ -414,7 +414,7 @@ school + type
 :::
 
 ::: fragment
-![](../images/UNSWcodeRs.png){fig-align="center" width="20%"}
+![](images/UNSWcodeRs.png){fig-align="center" width="20%"}
 
 Every Thursday 10:00 AM 
 E26 Level 4 Room 4063
