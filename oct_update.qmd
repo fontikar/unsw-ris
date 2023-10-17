@@ -118,10 +118,10 @@ from: markdown+emoji
 :::  
 
 ::: fragment
-![](../images/ecostats_hex.png){width="30%"}
-![](../images/smatr_hex.png){width="30%"}
-![](../images/mvabund_hex.png){width="30%"}
-![](../images/litterfitter_hex.png){width="30%"}
+![](../images/ecostats_hex.png){width="22%"}
+![](../images/smatr_hex.png){width="22%"}
+![](../images/mvabund_hex.png){width="22%"}
+![](../images/litterfitter_hex.png){width="22%"}
 :::  
 :::
 
