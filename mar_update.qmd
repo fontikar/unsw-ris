@@ -1,31 +1,25 @@
 ---
 title: "RIS March Project Update"
 author: "Fonti Kar + Daniel Falster"
-date: "17-Oct-2023"
+date: "1-March-2023"
 format: 
   html:
+    theme: lumen
     toc: true
+    embed-resources: true
 editor: source
 from: markdown+emoji
+bootswatch: true
 ---
 
 ## Hey folks! :wave:
 
 Hope everyone's 2024 started out smoothly. Rather than setting a meeting and wrangling everyone's schedules, I thought a written update would be more flexible.
 
-Importantly, I wanted to tell you all faced some delays with our project, particularly learning how to test some Shiny apps I helped develop last quarter. I had to peel back some layers and learn some foundational concepts before I could get to testing.
+## Summary
 
-Some delays were due to lack of access to source code, so this is a good reminder for us all to invite me as a collaborator to Github repositories if we want to hit the ground running!
-
-I was also a tad ambitious with the number of projects that I can complete in conjunction to taking leave so I hope to be more aware this upcoming quarter! \
-\
-\
-
-## tl;dr
-
--   We are ditching [Posit Connect](https://posit.co/products/enterprise/connect/) and will migrate to [shinyapps.io](https://www.shinyapps.io/) by start of March
--   We
--   Some delays with several projects, these will be prioritised this quarter
+-   We ditched [Posit Connect](https://posit.co/products/enterprise/connect/) and migrated to [shinyapps.io](https://www.shinyapps.io/)
+-   Please submit your availability [in this timeline](https://unsw-my.sharepoint.com/:x:/r/personal/z3516573_ad_unsw_edu_au1/Documents/UNSW_RIS_2022/RIS_project_planning.xlsx?d=wd594d67bda574876a85c632e9eedd6ae&csf=1&web=1&e=DpItgk) for T1 and T2
 
 ## Group decisions :busts_in_silhouette:
 
@@ -33,57 +27,65 @@ I was also a tad ambitious with the number of projects that I can complete in co
 
 -   We hold a [Posit Connect](https://posit.co/products/enterprise/connect/) license (expires on 26 June) for deploying our Shiny apps. Originally, our plan was to purchase an in-house server for run Posit Connect and apps but this posed a security risk to UNSW infrastructure.
 -   I've been working with Michael Grogan (Intersect/ResTech) to set up a virtual instance from [NECTAR](https://dashboard.rc.nectar.org.au/auth/login/) as an alternative solution (AUD \$10.77 / day, 8 vcpu 16GB RAM, \$1447 in total).
--   I had some disgruntled conversations with Posit about the lack of suitability of the Posit Connect license to our project. We were sold an enterprise level license which is an overkill for our projects' needs. Unfortunately, Posit cannot do anything about the license.
+-   I had some unexpectedly complicated discussions with Posit about the lack of suitability of the Posit Connect license to our project. In a nutshell, we were sold an enterprise level license which is an overkill for our projects' needs. Unfortunately, Posit cannot do anything about the license.
 
-Our plan :chart_with_upwards_trend:
+### Our plan :chart_with_upwards_trend:
 
--   We will cut our losses with our license and migrate to a Professional [shinyapps.io](https://www.shinyapps.io/) account (USD \$3860 / year or \$349 / month) and not worry about setting our own virtual instance altogether.
+-   We will cut our losses with our Posit Connect license and migrate to a Professional [shinyapps.io](https://www.shinyapps.io/) account (USD \$3860 / year or \$349 / month) and not worry about setting our own virtual instance altogether.
 
--   Our custom domain will resemble something like https://**shiny.unsw.edu**/infinitylists/
+-   Our domain looks like this: <https://unsw.shinyapps.io/infinitylists/>
 
-## Project updates (Nov - Feb)
+## Project updates (Nov 23 - Feb 24)
 
 ### Software :rocket:
 
--   Read Mastering Shiny to learn about testing and applying to [APCalign-app](https://posit-connect-unsw.intersect.org.au/APCalign-app/) (Falster + Cornwell)
+-   Shiny testing for [`APCalign-app`](https://unsw.shinyapps.io/APCalign-app/) (Falster + Cornwell)
+-   Unit testing for [`infinitylists`](https://unsw.shinyapps.io/infinitylists/)
 -   Started the Work-in-progress [blog](https://unsw-edu-au.github.io/wip-blog/)
 -   Created foundations for [`AugGaussian`](https://github.com/fontikar/augGauss) package (Lee)
 -   Upgraded `ecoCopula` package (Warton)
--   Upgraded `groc` package (Lafaye)
+-   Assisted with scoping for 'automated data analyses' (Sisson)
+-   Assisted with `groc` package (Lafaye)
 -   Created foundations for [`MAGPI-HiVis`](https://github.com/MagpiSurvey/MAGP-HiVis) app (Foster)
 
-### Delayed :construction:
+### In progress :construction:
 
--   Scoping 'automated data analyses' (Sisson)
 -   [`MAGPI-HiVis`](https://github.com/MagpiSurvey/MAGP-HiVis) app (Foster)
 -   [`ecopower`](https://github.com/eco-stats/ecopower) package (Warton)
--   Shiny workflow for searchable databases (Nakagawa)
 -   [`rmot`](https://github.com/traitecoevo/rmot) package (Falster + Warton)
+-   CI/CD workflow for modelevalution.org outputs (Abramowitz)
+-   R research training resource for Psychology (Williams)
 
-## What's next (Mar - June)
+## What's next (Mar 24 - Jul 24)
 
-### Software
+### Software :package:
 
-#### Target delayed projects :dart:
+#### Plan ahead :dart:
 
--   Scoping 'automated data analyses' (Sisson) (Feb 2-3 days)
--   [`ecopower`](https://github.com/eco-stats/ecopower) package (Warton) (Feb 3-4 days)
--   [`rmot`](https://github.com/traitecoevo/rmot) package (Falster + Warton) (March TBC)
--   [`MAGPI-HiVis`](https://github.com/MagpiSurvey/MAGP-HiVis) app (Foster) (Mid March 2 weeks)
--   Shiny workflow for searchable databases (Nakagawa) (End of March, 1 week)
+Dates in brackets indicate estimated finished date
+
+-   R research training resource for Psychology (Williams) (End of May)
+-   CI/CD workflow for modelevalution.org outputs (Abramowitz) (End of May)
+-   [`rmot`](https://github.com/traitecoevo/rmot) package (Falster + Warton) (Mid April)
+-   [`ecopower`](https://github.com/eco-stats/ecopower) package (Warton) (End of March)
+-   [`MAGPI-HiVis`](https://github.com/MagpiSurvey/MAGP-HiVis) app (Foster) (End of April)
 
 #### New projects
 
--   Foundations for Shiny app for research training (Falster)
--   Shiny app for modelevalution.org outputs (Abramowitz)
--   R research training resource for Psychology (Williams)
+-   Upgrade `IndependenceTests` (Lafaye)
+-   Quarto/Huge website for Artificial Intelligence (Falster)
+-   Shiny workflow for searchable databases (Nakagawa)
 
-### Teaching + Community :woman_teacher:
+### Community building + Research training :woman_teacher:
 
--   uDASH R package workshops (TBC)
--   Environmental Computing Github workshop (TBC)
--   Vafaee Lab R package + Github workshop (TBC)
+Please reach out if you would like to run any research skill based training for your community/group
 
-## What I need from you 
+-   uDASH R package workshops (TBD)
+-   Environmental Computing Github workshop (TBD)
+-   Vafaee Lab R package + Github workshop (TBD)
+
+## What I need from you :pray:
 
 Can you all fill in your rough availability [in this timeline](https://unsw-my.sharepoint.com/:x:/r/personal/z3516573_ad_unsw_edu_au1/Documents/UNSW_RIS_2022/RIS_project_planning.xlsx?d=wd594d67bda574876a85c632e9eedd6ae&csf=1&web=1&e=DpItgk) for T1 and T2 so we can synchronise our schedules and work more closely!
+
+:rotating_light::rotating_light: If your projects have firm due dates please let me know ASAP so I can rearrange my project plan and prioritise your project! 🚨🚨
