@@ -1,7 +1,7 @@
 ---
-title: "RIS March Project Update"
+title: "RIS June Project Update"
 author: "Fonti Kar + Daniel Falster"
-date: "1-March-2023"
+date: "27-June-2024"
 format: 
   html:
     theme: lumen
@@ -14,7 +14,7 @@ bootswatch: true
 
 ## Hey folks! :wave:
 
-Hope everyone's 2024 started out smoothly. Rather than setting a meeting and wrangling everyone's schedules, I thought a written update would be more flexible.
+Hope everyone's T2 started out smoothly. Another 3 months have flown by and here we our quarterly update!
 
 ## Summary
 
@@ -80,9 +80,11 @@ Dates in brackets indicate estimated finished date
 
 :email: Please reach out if you would like to run any research skill based training for your community/group
 
--   uDASH R package workshops (TBD)
+-   Vafaee Lab: 
+  - DIY R package
+  - Git with it
+  - Convert code for collaboration 
 -   Environmental Computing Github workshop (TBD)
--   Vafaee Lab R package + Github workshop (TBD)
 
 ## What I need from you :pray:
 
